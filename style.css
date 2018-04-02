@@ -1,4 +1,45 @@
+body{
+    background: url(stripes.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
+
 #addFood{
     margin-top: 3px;
     
 }
+
+.float{
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+p{
+    position: absolute;
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.jumbotron{
+    background: url("food.gif");
+    height: 300px;
+    color: white;
+    margin-top: 10px;
+}
+
+.container{
+    background: white;
+    padding-bottom: 20px;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+
+.scroll {
+    height: 380px;
+    overflow-y: scroll;
+  }

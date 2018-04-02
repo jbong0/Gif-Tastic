@@ -17,22 +17,25 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
 </head>
 
 
 <body>
-    <div class="container">
-        <div class="jumbotron text-center">
+    <div class="container main">
+        <div class="jumbotron jumbotron-fluid text-center">
             <h1>GIF-Tastic!</h1>
+            <h3>Food Edition</h3>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <span id="gifHolder"><h5 id="title">Let's Eat!</h5>**GIFS GO HERE**</span>
+                <div id="gifShow"class="col scroll">
+                    <span id="title"><h5>Let's Eat!</h5></span>
+                    <span id="gifHolder"></span>
                 </div>
                 <div class="col-3">
-                    <div class="row">
+                    <div class="row id="menu"">
                         <form action="" id="addButtons">
                             <label for="foodInput">What's on the menu?</label>
                             <input type="text" id="foodInput"><br>
@@ -42,7 +45,6 @@
                         
                         <h5 class="mt-3">Menu</h5>
                         <span id="buttonHolder"></span>
-                        <button type="reset" id="clearBtn" class=" btn-block mt-5">Clear</button>
                     </div>
                 </div>
             </div>
