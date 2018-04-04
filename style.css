@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #addFood{
@@ -19,12 +19,16 @@ body{
 
 p{
     position: absolute;
-    background-color: darkcyan;
+    background-color: grey;
+    opacity: .8;
     color: white;
     padding: 5px;
     margin: 5px;
+    font-size: 10px;
 }
-
+.text{
+    opacity: 1;
+}
 .jumbotron{
     background: url("food.gif");
     height: 300px;
@@ -43,3 +47,40 @@ p{
     height: 395px;
     overflow-y: scroll;
   }
+button{
+    color: red;
+    border: red 1px solid;
+    border-radius: 15%;
+    margin: 2px;
+    float:left;
+    
+}
+
+.download{
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      padding: 2px;
+      margin: 5px;
+      margin-top: 160px;
+
+  }
+
+  a{
+      color: white;
+  }
+
+  a:visited{
+    color: white;
+}
+
+#menu{
+    font-size: 10px;
+    width: 40px;
+}
+
+.foodButton{
+    font-size: 8px;
+    margin: 1px;
+}
+
