@@ -1,4 +1,3 @@
-
 // Initial "Menu" Items
 var topics = ["Pizza", "Hot Dogs", "Cupcakes", "Watermelon", "Fruits", "Vegetables", "Cake", "Steak", "Ice Cream"]
 
@@ -67,7 +66,7 @@ function createButtons(){
         newButton.addClass("foodButton")
         newButton.attr("data-name", topics[i])
         newButton.text(topics[i])
-        $("#buttonHolder").append(newButton)
+        $("#buttonHolder").prepend(newButton)
     }
 }
 
@@ -85,4 +84,3 @@ $("#addFood").on("click", function(event){
 
 
 createButtons()
-
