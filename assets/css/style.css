@@ -1,9 +1,9 @@
 body{
-    background: url(stripes.jpg);
+    background: url(../imgs/stripes.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     font-family: 'Press Start 2P', cursive;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 #addFood{
@@ -30,7 +30,7 @@ p{
     opacity: 1;
 }
 .jumbotron{
-    background: url("food.gif");
+    background: url("../imgs/food.gif");
     height: 300px;
     color: white;
     margin-top: 10px;
