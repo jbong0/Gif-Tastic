@@ -40,12 +40,13 @@ function gifDisplay(){
                     $("#gifHolder").prepend(gifDiv)
                     
                     // Click fxn for gifs to animate when still, and vice versa.
-                    $(".foodClick").on("click", function() {
+                    foodImage.on("click", function() {
                         var state = $(this).attr("data-state")
                             if (state === "still") {
                                 $(this).attr("src", $(this).attr("data-animate"))
                                 $(this).attr("data-state", "animate")
                             } else {
+                                if (state === "animate")
                                 $(this).attr("src", $(this).attr("data-still"))
                                 $(this).attr("data-state", "still")
                             }
